@@ -1,2 +1,4 @@
 /datadump
 text.txt
+.venv
+.env
