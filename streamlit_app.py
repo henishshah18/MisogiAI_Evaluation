@@ -22,6 +22,8 @@ if prompt:
         st.markdown(prompt)
     # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
+else:
+    st.write("Please enter some text.")
 
 
 response  = graph.invoke({'question':prompt})
